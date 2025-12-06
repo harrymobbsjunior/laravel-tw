@@ -3,7 +3,7 @@
 /data/
 
 # Laravel
-/public/storage
+/projeto/storage
 /storage/*.key
 .env
 .env.*
@@ -17,9 +17,9 @@ yarn-error.log
 .idea
 
 # Laravel Mix
-/public/hot
-/public/js/*.map
-/public/css/*.map
+/projeto/hot
+/projeto/js/*.map
+/projeto/css/*.map
 
 # Logs
 /storage/logs/*.log
