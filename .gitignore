@@ -1,0 +1,44 @@
+/vendor/
+/node_modules/
+/data/
+
+# Laravel
+/public/storage
+/storage/*.key
+.env
+.env.*
+.env.backup
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Laravel IDEA plugin
+.idea
+
+# Laravel Mix
+/public/hot
+/public/js/*.map
+/public/css/*.map
+
+# Logs
+/storage/logs/*.log
+
+# Cache & compiled files
+/storage/framework/cache/**
+/storage/framework/sessions/**
+/storage/framework/views/**
+/storage/framework/testing/**
+/storage/framework/laravel-excel/**
+/storage/app/public/**
+/bootstrap/cache/*.php
+
+# Composer
+composer.lock
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# OS generated
+.DS_Store
+Thumbs.db
